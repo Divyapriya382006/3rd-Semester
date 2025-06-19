@@ -143,19 +143,17 @@ width: 200px;
 }
 
 
-.cool a{
-     width: 200px;
+.cool{
+  
+   display: flex;
+    grid-column: 30px;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 400px;
+    height: 100px;
     border-radius: 5px;
    transition: transform 0.2s ease;
-    /*position: fixed;*/
-    bottom: 20px;
-    right: 10px;
-   background-color: #214376;
-    color: white;
-    padding: 5px 15px;
-    text-decoration: none;
-    border-radius: 8px;
-    transition: background-color 0.2s ease; 
+   justify-content: center;
 }
 
 .cool a:hover{
