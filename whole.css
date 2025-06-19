@@ -152,6 +152,9 @@ width: 200px;
     border-radius: 5px;
    transition: transform 0.2s ease;
    justify-content: center;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
 }
 
 .cool:hover{
