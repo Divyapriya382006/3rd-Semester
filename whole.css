@@ -156,6 +156,6 @@ width: 200px;
    justify-content: center;
 }
 
-.cool a:hover{
+.cool:hover{
     transform: scale(1.07)
 }
