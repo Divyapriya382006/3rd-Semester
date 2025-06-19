@@ -159,3 +159,21 @@ width: 200px;
 .cool:hover{
     transform: scale(1.07)
 }
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+h1 {
+  color: #004488;
+  text-align: center;
+}
+a {
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover {
+  color: #ff4081;
+}
+
