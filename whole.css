@@ -188,14 +188,14 @@ img[alt="visitor count"] {
   padding: 20px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
   margin: 10px;
-    width: 700px;
+    width: 400px;
 }
 .card-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 20px;
   padding: 30px;
-     width: 700px;
+     width: 400px;
 }
 .card:hover {
   transform: translateY(-5px);
@@ -207,14 +207,14 @@ img[alt="visitor count"] {
   color: #0047ab;
   font-weight: bold;
 backgound-color: rgb(17, 153, 165);
-     width: 700px;
+     width: 400px;
 }
 
 .card p {
   color: #444;
   font-size: 0.95rem;
   margin-top: 8px;
-     width: 700px;
+     width: 400px;
 }
 
 
