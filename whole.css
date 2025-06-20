@@ -179,6 +179,15 @@ a:hover {
 img[alt="visitor count"] {
   margin-top: 10px;
   filter: drop-shadow(0 0 5px #999);
+ width: 200px;
+    height: 100px:
+}
+.card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin: 10px;
 }
 
 
