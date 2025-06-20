@@ -224,6 +224,8 @@ img[alt="visitor count"] {
 .last{
  width:800px;
     align-content: center ;
+    max-width: 1000px;
+  margin: 0 auto;
 }
 
 .last:hover{
