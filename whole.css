@@ -220,27 +220,10 @@ img[alt="visitor count"] {
   margin-top: 8px;
 }
 
-.last h3 a{
-color: #444;
-  font-size: 0.95rem;
-  margin-top: 8px;
-}
-
-.last p{
-    text-decoration: none;
-  color: #0047ab;
-  font-weight: bold;
-}
 
 .last{
-  background-color: #f2f8ff;
-  border: 1px solid #d1e3ff;
-  border-radius: 15px;
-  padding: 20px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
-  transition: transform 0.2s ease, box-shadow 0.3s ease;
-   max-width: 1000px;
-  margin: 0 auto;
+ width:2000px;
+    align-content: center ;
 }
 
 .last:hover{
