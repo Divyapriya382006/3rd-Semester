@@ -176,4 +176,9 @@ a {
 a:hover {
   color: rgb(41, 181, 181);
 }
+img[alt="visitor count"] {
+  margin-top: 10px;
+  filter: drop-shadow(0 0 5px #999);
+}
+
 
