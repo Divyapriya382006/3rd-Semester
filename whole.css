@@ -24,7 +24,6 @@ nav a:hover{
 }
 body{
     background: url(bg.jpg) ;
-    filter: blur(8px);
     background-color: rgb(88, 147, 215);
 }
 h1{
