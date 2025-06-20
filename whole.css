@@ -23,7 +23,8 @@ nav a:hover{
 /*     transform: scale(1.06); */
 }
 body{
-    background: url(bg.jpg);
+    background: url(bg.jpg) ;
+    filter: blur(8px);
     background-color: rgb(88, 147, 215);
 }
 h1{
