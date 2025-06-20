@@ -189,5 +189,27 @@ img[alt="visitor count"] {
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
   margin: 10px;
 }
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 30px;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.12);
+}
+
+.card h3 a {
+  text-decoration: none;
+  color: #0047ab;
+  font-weight: bold;
+}
+
+.card p {
+  color: #444;
+  font-size: 0.95rem;
+  margin-top: 8px;
+}
 
 
