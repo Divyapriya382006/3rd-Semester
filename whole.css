@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 nav ul {
-    background-color: rgb(100, 230, 232);
+    /* background-color: rgb(100, 230, 232); */
     padding: 10px;
     display: flex;
     gap: 30px; 
@@ -10,37 +10,41 @@ nav ul {
 }
 
 nav a {
-    background-color: rgb(74, 167, 201);
+    /* background-color: rgb(74, 167, 201); */
     color: white;
     display: flex;
-    padding: 5px 20px;
+    padding: 0;
     text-decoration: none;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     font-weight: bold;
+    border:0;
 }
-nav a:hover{
+/* nav a:hover{
     background-color: rgb(57, 120, 152);
-/*     transform: scale(1.06); */
-}
+    transform: scale(1.06);
+} */
 body{
-    background: linear-gradient(to left, rgb(73, 108, 160), rgb(51, 99, 163));
-    background-color: rgb(88, 147, 215);
+    /* background: linear-gradient(to left, rgb(73, 108, 160), rgb(51, 99, 163)); */
+    background-color: rgb(230, 233, 236);
 }
-h1{
+.h1{
+  left:-20px;
+}
+/* h1{
     top: 5px;
     bottom: 5px;
     text-align: left;
     text-transform: capitalize;
     text-decoration:wavy;
     text-align: center;
-    background-color: white;
-        /*rgb(57, 120, 152);*/
+    background-color: rgb(88, 147, 215);
+        rgb(57, 120, 152);
     height: 30px;
     padding: 4px 5px;
     border:0;
-}
+} */
 
-nav a: active{
+nav a:active{
     background-color: blue;
 }
 nav a:visited{
@@ -48,17 +52,33 @@ nav a:visited{
 }
 button{
     text-decoration: none;
-    background-color: ;
+    background: linear-gradient(to left, rgb(73, 108, 160), rgb(51, 99, 163));
     position: fixed;
     bottom: 20px;
     right: 10px;
 }
+.topbar{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    color:black;
+    padding:15px;
+    justify-content: center;
+  align-items: center;
+}
+.sublist{
+  list-style: none;
+  display: flex;
+    flex-direction: row;
+    gap:15px;
+    
+}
 h2{
     display: block;
-    background-color: rgb(100, 230, 232);
+    background: linear-gradient(to left, rgb(73, 108, 160), rgb(51, 99, 163));
     width:300px;
     height: 30px;
-    padding: 2px 7px
+    padding: 2px 7px;
     
 }
 
@@ -76,7 +96,9 @@ h2{
 h3{
 display: block;
 height: 30px ;
-background-color:rgb(100, 230, 232) ;
+border-radius: 10px;
+/* background-color:rgb(100, 230, 232) ; */
+ background: linear-gradient(to left, rgb(73, 108, 160), rgb(51, 99, 163));
 padding: 4px 7px;
 width: 400px;
 }
@@ -169,12 +191,12 @@ body {
   padding: 20px;
   padding: 0 15px;
 }
-h1 {
+/* h1 {
   color: #004488;
   text-align: center;
-}
+} */
 a {
-  color: #0066cc;
+  color: #d8dbde;
   text-decoration: none;
   font-weight: bold;
 }
@@ -185,7 +207,7 @@ img[alt="visitor count"] {
   margin-top: 10px;
   filter: drop-shadow(0 0 5px #999);
  width: 200px;
-    height: 100px:
+    height: 100px;
 }
 .card-grid {
   display: grid;
@@ -197,8 +219,8 @@ img[alt="visitor count"] {
 }
 
 .card {
-  background-color: #f2f8ff;
-  border: 1px solid #d1e3ff;
+  background: rgb(223, 220, 214);
+  border:3px solid  rgb(51, 99, 163);
   border-radius: 15px;
   padding: 20px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
@@ -214,7 +236,7 @@ img[alt="visitor count"] {
 
 .card h3 a {
   text-decoration: none;
-  color: #0047ab;
+  color: #e5e7ea;
   font-weight: bold;
 }
 
