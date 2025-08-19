@@ -28,12 +28,15 @@ body{
 }
 h1{
     top: 5px;
+    bottom: 5px;
     text-transform: capitalize;
     text-decoration:wavy;
     text-align: center;
-    background-color:rgb(57, 120, 152);
+    background-color: white;
+        /*rgb(57, 120, 152);*/
     height: 30px;
     padding: 4px 5px;
+    border:0;
 }
 
 nav a: active{
