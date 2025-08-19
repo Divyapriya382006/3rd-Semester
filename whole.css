@@ -29,6 +29,7 @@ body{
 h1{
     top: 5px;
     bottom: 5px;
+    text-align: left;
     text-transform: capitalize;
     text-decoration:wavy;
     text-align: center;
