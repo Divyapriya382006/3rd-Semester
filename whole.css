@@ -23,7 +23,7 @@ nav a:hover{
 /*     transform: scale(1.06); */
 }
 body{
-    background: url(bg.jpg) ;
+    background: linear-gradient(to left, rgb(73, 108, 160), rgb(51, 99, 163));
     background-color: rgb(88, 147, 215);
 }
 h1{
