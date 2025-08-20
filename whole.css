@@ -44,12 +44,12 @@ body{
     border:0;
 } */
 
-nav a:active{
+/* nav a:active{
     background-color: blue;
 }
 nav a:visited{
     background-color: rgb(17, 153, 165);
-}
+} */
 button{
     text-decoration: none;
     background: linear-gradient(to left, rgb(73, 108, 160), rgb(51, 99, 163));
