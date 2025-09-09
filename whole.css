@@ -60,7 +60,7 @@ button{
 .topbar{
     display: flex;
     flex-direction: row;
-    gap:25px;
+    gap:66px;
     background-color: rgb(141, 169, 204);
     color:black;
     padding:15px;
@@ -85,7 +85,7 @@ button{
   list-style: none;
   display: flex;
   flex-direction: row;
-  gap:55px;
+  gap:75px;
   color: rgb(56, 54, 54);
   margin-top:20px;
 }
